@@ -34,7 +34,7 @@ export default function Home() {
                 - Help resolve billing issues for customers
                 - Dig through logs to troubleshoot a customer's broken project
                 - Respond to 50+ support requests via email every day </p>
-          </a>
+          </div>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Question 3b</h2>
