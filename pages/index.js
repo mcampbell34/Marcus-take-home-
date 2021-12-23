@@ -62,7 +62,7 @@ export default function Home() {
               Please let me know if you have any specific questions regarding this process and I'll be more than happy to further assist. 
             </p>
           </a>
-            </a>
+            </div>
 
            <h2>Question 3g</h2>
             <p>
