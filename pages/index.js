@@ -74,7 +74,7 @@ export default function Home() {
               flush before the new changes are set. I would focus on helping our customer understand how DNS works and the tolls avalible they can use to 
               debug these issues on their end such as "dig". 
             </p>
-          </<Fragment>>
+          </Fragment>
               
            <div> 
            <h2>Question 3h</h2>
