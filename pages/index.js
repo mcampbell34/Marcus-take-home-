@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import React, { Fragment } from 'react';
 
 export default function Home() {
   return (
@@ -65,16 +66,15 @@ export default function Home() {
           </a>
             </div>
              
-          <> 
-           <h2>Question 3g</h2>
-            </> 
+          <Fragment> 
+           <h2>Question 3g</h2> 
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
               results and even though a customer made changes that are correct, they may still need to wait for the TTL of their DNC configrations to 
               flush before the new changes are set. I would focus on helping our customer understand how DNS works and the tolls avalible they can use to 
               debug these issues on their end such as "dig". 
             </p>
-          </a>
+          </<Fragment>>
               
            <div> 
            <h2>Question 3h</h2>
