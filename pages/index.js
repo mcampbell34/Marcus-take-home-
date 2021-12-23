@@ -65,9 +65,9 @@ export default function Home() {
           </a>
             </div>
              
-          <div> 
+          <> 
            <h2>Question 3g</h2>
-            </div> 
+            </> 
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
               results and even though a customer made changes that are correct, they may still need to wait for the TTL of their DNC configrations to 
