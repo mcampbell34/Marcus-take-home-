@@ -64,7 +64,8 @@ export default function Home() {
             </p>
           </a>
             </div>
-
+             
+          <div> 
            <h2>Question 3g</h2>
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
@@ -73,6 +74,8 @@ export default function Home() {
               debug these issues on their end such as "dig". 
             </p>
           </a>
+             </div> 
+           <div> 
            <h2>Question 3h</h2>
             <p>
               This process overall was great, very straight forward and to the point and I had fun brushing up on my Git and Github skills. I now I will 
