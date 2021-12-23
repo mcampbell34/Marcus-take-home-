@@ -82,7 +82,6 @@ export default function Home() {
             className={styles.card}
           >
            <h2>Question 3h</h2>
-             </div>
             <p>
               This process overall was great, very straight forward and to the point and I had fun brushing up on my Git and Github skills. I now I will 
               need to put aside sometime to get back into using the git command line as I haven't used it since attending Lambda but, I was able to find
