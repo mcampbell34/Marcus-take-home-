@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Marcus Campbell Take Home Assignment </a>
+     
+        <h1>
+          Marcus Campbell Take Home Assignment
         </h1>
 
         <p className={styles.description}>
