@@ -67,6 +67,7 @@ export default function Home() {
              
           <div> 
            <h2>Question 3g</h2>
+            </div> 
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
               results and even though a customer made changes that are correct, they may still need to wait for the TTL of their DNC configrations to 
@@ -74,9 +75,10 @@ export default function Home() {
               debug these issues on their end such as "dig". 
             </p>
           </a>
-             </div> 
+              
            <div> 
            <h2>Question 3h</h2>
+             </div>
             <p>
               This process overall was great, very straight forward and to the point and I had fun brushing up on my Git and Github skills. I now I will 
               need to put aside sometime to get back into using the git command line as I haven't used it since attending Lambda but, I was able to find
