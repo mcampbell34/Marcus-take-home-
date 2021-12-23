@@ -63,20 +63,24 @@ export default function Home() {
               To use your GoDaddy domain with Vercel, you can follow these steps: https://vercel.com/guides/transferring-domains-to-vercel. 
               Please let me know if you have any specific questions regarding this process and I'll be more than happy to further assist. 
             </p>
-          </a>
-            </div>
-             
-          <Fragment> 
+          
+           <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          > 
            <h2>Question 3g</h2> 
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
               results and even though a customer made changes that are correct, they may still need to wait for the TTL of their DNC configrations to 
               flush before the new changes are set. I would focus on helping our customer understand how DNS works and the tolls avalible they can use to 
               debug these issues on their end such as "dig". 
-            </p>
-          </Fragment>
-              
-           <div> 
+            </p> 
+            </a> 
+
+           <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          >
            <h2>Question 3h</h2>
              </div>
             <p>
