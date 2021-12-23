@@ -89,7 +89,7 @@ export default function Home() {
             </p>
           </a>
         </a>
-      </main>
+      </div>
 
       <footer className={styles.footer}>
         <a
