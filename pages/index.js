@@ -50,20 +50,11 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Question 3e</h2>
-            <p>One way to redirect you can add the following within the "next.config.js" file if you are using Next.js or within the "vercel.json" if you are using something else
-              With this option you will see a "308" response code. You can use this command to test this redirect behavior, "curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search"
-              <div> module.exports = {
-                     async redirects() {
-                     return [
-                       {
-                       source: '/about',
-                       destination: '/',
-                        permanent: true,
-                        },
-                        ]
-                        },
-                    } </div> </p>
-          </a>
+            <p>One way to redirect you can add the following within the "next.config.js" file if you are using Next.js or within the "vercel.json" 
+            (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects). If you are using something else
+             By following this guide, you will see a "308" response code on your request. You can use this command to test this redirect behavior, "curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search"
+             </p>
+         
 
            <h2>Question 3f</h2>
             <p>
