@@ -11,10 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     
+     <div>
         <h1>
           Marcus Campbell Take Home Assignment
         </h1>
+    </div>
 
         <p className={styles.description}>
           Get started by editing{' '}
