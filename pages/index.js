@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
     </div>
 
-        <a href="/Users/mb/Desktop/Take Home Assignment /Marcus-take-home-/search" className={styles.card}>
+        <a href="/search" className={styles.card}>
             <h2>Question 3a</h2>
 
             <ul> My top 5 favorite task included:
