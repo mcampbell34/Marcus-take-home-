@@ -18,6 +18,7 @@ export default function Home() {
 
         <a className={styles.card}>
             <h2>Question 3a</h2>
+
             <ul> My top 5 faviorate task included:
                 <li>Help train and onboard new support teammates</li>  
                 <li> Manage a support team </li> 
@@ -37,12 +38,15 @@ export default function Home() {
 
           <a  className={styles.card}>
             <h2>Question 3b</h2>
-            <p>I would really like to take advatage of this opportunity by refining my react and javascript skills.
+            <p>
+              I would really like to take advatage of this opportunity by refining my react and javascript skills.
               I plan on doing this by taking advange of the learning fund to enroll in Udemy cources that are centered
                 around these two lanages. Something that I am passionate about is supporting my teammates when it comes to 
                   understanding the techincal networking aspects of the web such as how to use tools such a cURL, mtr, and even dig to 
-                    look deeper into a customers issue and provide the appropiate guidence to get them the expected behavior they are looking for.</p>
+                    look deeper into a customers issue and provide the appropiate guidence to get them the expected behavior they are looking for.
+              </p>
           </a>
+
           <a className={styles.card}>
             <h2>Question 3e</h2>
             <p>One way to redirect you can add the following within the next.config.js file if you are using Next.js or within the vercel.json 
@@ -51,7 +55,7 @@ export default function Home() {
              By implenting the suggestions within the guide, you will see a 308 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
              Additionally, you can use the -L flag via cURL to follow the 308 redirect to a 200 which is where the object now lives.
              
-             If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I'll be more than happy to help.
+             If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I will be more than happy to help.
              </p>
 
 
@@ -60,7 +64,7 @@ export default function Home() {
            <h2>Question 3f</h2>
             <p>
               To use your GoDaddy domain with Vercel, you can follow these steps: https://vercel.com/guides/transferring-domains-to-vercel. 
-              If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I'll be more than happy to help.
+              If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I will be more than happy to help.
             </p>
         </a>
 
