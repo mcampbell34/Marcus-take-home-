@@ -23,7 +23,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <a href="https://nextjs.org/learn" className={styles.card}>
+        <div>
             <h2>Question 3a</h2>
             <p> My top 5 faviorate task included:
                 - Help train and onboard new support teammates 
@@ -36,7 +36,7 @@ export default function Home() {
                 - Help resolve billing issues for customers
                 - Dig through logs to troubleshoot a customers broken project
                 - Respond to 50+ support requests via email every day </p>
-          </a>
+          </div>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Question 3b</h2>
@@ -56,16 +56,19 @@ export default function Home() {
             (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects). If you are using something else
              By following this guide, you will see a 308 response code on your request. You can use this command to test this redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
              </p>
+<<<<<<< HEAD
              </a>
              
          <a href="https://nextjs.org/learn" className={styles.card}>
+=======
+         
+>>>>>>> parent of 0d8f8d2... Update index.js
 
            <h2>Question 3f</h2>
             <p>
               To use your GoDaddy domain with Vercel, you can follow these steps: https://vercel.com/guides/transferring-domains-to-vercel. 
               Please let me know if you have any specific questions regarding this process and I will be more than happy to further assist. 
             </p>
-        </a>
           
            <a
             href="https://github.com/vercel/next.js/tree/master/examples"
