@@ -84,6 +84,8 @@ export default function Home() {
             </p>
           </a>
         </a>
-      </div>      
+      </a>  
+    </div>  
+
   )
 }
