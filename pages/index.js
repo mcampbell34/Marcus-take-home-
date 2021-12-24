@@ -24,13 +24,14 @@ export default function Home() {
                 <li> Run ticket review sessions to make sure tone is consistent</li>
                 <li> Work with engineering teams during incidents and provide updates to internal and external stakeholders</li>
                 <li> Find and recruit teammates for the support team</li>
-                
-                 My top 5 least faviorate task included:
+                </ul>  
+                 <ul>My top 5 least faviorate task included:
                 <li>Help resolve billing issues for customers</li>
                 <li>Dig through logs to troubleshoot a customers broken project</li>
                 <li>Respond to 50+ support requests via email every day </li>
+                </ul>
           
-          </ul>
+          
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Question 3b</h2>
