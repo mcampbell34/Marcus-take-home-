@@ -39,21 +39,25 @@ export default function Home() {
           <a  className={styles.card}>
             <h2>Question 3b</h2>
             <p>
-              I would really like to take advatage of this opportunity by refining my react and javascript skills.
+              I would really like to take advatage of this opportunity by refining my react and javascript skills. 
               I plan on doing this by taking advange of the learning fund to enroll in Udemy cources that are centered
-                around these two lanages. Something that I am passionate about is supporting my teammates when it comes to 
-                  understanding the techincal networking aspects of the web such as how to use tools such a cURL, mtr, and even dig to 
-                    look deeper into a customers issue and provide the appropiate guidence to get them the expected behavior they are looking for.
+              around these two lanages. Something that I am passionate about is supporting my teammates when it comes to 
+              understanding the techincal aspects of the web such as how to use tools such a cURL, mtr, and even dig to 
+              look deeper into a customer issue and provide the appropiate guidence.
               </p>
           </a>
 
           <a className={styles.card}>
             <h2>Question 3e</h2>
-            <p>One way to redirect you can add the following within the next.config.js file if you are using Next.js or within the vercel.json 
+            <p>
+              
+            One way to redirect is to add the following snippet within the guide below within your next.config.js file if you are using Next.js or within the vercel.json file if you are using something different:
             (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects).
 
-             By implenting the suggestions within the guide, you will see a 307 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
+             By implenting the suggestions within the guide, you will see a 307 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://marcus-take-home-h8t2a3oaz-mcampbell34.vercel.app/search
              Additionally, you can use the -L flag via cURL to follow the 308 redirect to a 200 which is where the object now lives.
+
+             Keep in mind that you will need to change permanent to false in order for a temporary redirect to occur, if it is true then you will see a permanent redirect. 
              
              If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I will be more than happy to help.
              </p>
@@ -72,16 +76,14 @@ export default function Home() {
            <h2>Question 3g</h2> 
             <p>
               From what I encountered and what I know is common is that customer may want to use their own domains instead of the one provided by Vercel. With this comes, 
-              educating the customer on how they can navigate through this process and configure
-              their site as they wish via documentation and screenshots if necessary. Additinally, customer may come across issues where they make changes and are not seeing them right away which can be handled via purge request to clear anything in cache and then refetch the correct object from origin and apply the new settings on the new object.
+              educating the customer on how they can navigate through the UI and configure
+              their site accordingly. Additinally, customer may come across issues where they make changes and are not seeing them right away which can be handled via purge request to clear anything in cache and then refetch the correct object from origin and apply the new settings on the new object.
             </p> 
             </a> 
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
-              This process overall was great, very straight forward and to the point. I had fun brushing up on my Git, Github, HTML, and react skills. I know I will 
-              need to put aside sometime to get back into using the git command line and react as I have not used it since attending Lambda but, I was able to find
-              alernatives to get the task done. 
+              This process overall was great, very straight forward and to the point. While I didn't spend too much time making my site fancy, I did have fun brushing up on my Git, Github, HTML, and react skills. I know I will need to put aside sometime to get back into using the git command line and react as I have not used it since attending Lambda but, after playing around with the code I was able to snap back and product a decent project. 
             </p>
           </a>
         </a>
