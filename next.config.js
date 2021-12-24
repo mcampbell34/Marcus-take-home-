@@ -6,7 +6,7 @@ module.exports = {
     { 
       "source": "/search",
       "destination": "https://vercel.com", 
-      "permanent": true
+      "permanent": false
     }
   ]
 }
