@@ -19,14 +19,17 @@ export default function Home() {
         <a href="/search" className={styles.card}>
             <h2>Question 3a</h2>
 
-            <ul> My top 5 favorite task included:
+            
+            <ul> 
+              <h1> My top 5 favorite task included:</h1>
                 <li>Help train and onboard new support teammates</li>  
                 <li> Manage a support team </li> 
                 <li> Run ticket review sessions to make sure tone is consistent</li>
                 <li> Work with engineering teams during incidents and provide updates to internal and external stakeholders</li>
                 <li> Find and recruit teammates for the support team</li>
               </ul>  
-              <ul> My top 5 least favorite task included:
+              <ul> 
+                <h1> My top 5 least favorite task included:</h1>
                 <li>Help resolve billing issues for customers</li>
                 <li>Dig through logs to troubleshoot a customers broken project</li>
                 <li>Respond to 50+ support requests via email every day </li>
@@ -43,6 +46,14 @@ export default function Home() {
               I plan on doing this by taking advantage of the learning fund to enroll in Udemy courses that are centered
               around these two languages. Something that I am passionate about is supporting my teammates when it comes to 
               understanding the technical aspects of the web such as how to use tools such a cURL, mtr, and even dig to
+              </p>
+          </a>
+
+          <a  className={styles.card}>
+            <h2>Question 3c</h2>
+            <p>
+
+
               </p>
           </a>
 
