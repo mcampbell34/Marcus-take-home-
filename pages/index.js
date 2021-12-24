@@ -56,6 +56,7 @@ export default function Home() {
             (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects). If you are using something else
              By following this guide, you will see a 308 response code on your request. You can use this command to test this redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
              </p>
+             </a>
              
          <a href="https://nextjs.org/learn" className={styles.card}>
 
