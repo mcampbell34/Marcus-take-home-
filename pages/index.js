@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
     </div>
 
-        <a href="https://nextjs.org/learn" className={styles.card}>
+        <a className={styles.card}>
             <h2>Question 3a</h2>
             <ul> My top 5 faviorate task included:
                 <li>Help train and onboard new support teammates</li>  
@@ -33,7 +33,7 @@ export default function Home() {
           
           
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a  className={styles.card}>
             <h2>Question 3b</h2>
             <p>I would really like to take advatage of this opportunity by refining my react and javascript skills.
               I plan on doing this by taking advange of the learning fund to enroll in Udemy cources that are centered
@@ -41,10 +41,7 @@ export default function Home() {
                   understanding the techincal networking aspects of the web such as how to use tools such a cURL, mtr, and even dig to 
                     look deeper into a customers issue and provide the appropiate guidence to get them the expected behavior they are looking for.</p>
           </a>
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+          <a className={styles.card}>
             <h2>Question 3e</h2>
             <p>One way to redirect you can add the following within the next.config.js file if you are using Next.js or within the vercel.json 
             (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects). If you are using something else
@@ -52,7 +49,7 @@ export default function Home() {
              </p>
 
 
-         <a href="https://nextjs.org/learn" className={styles.card}>
+         <a className={styles.card}>
 
            <h2>Question 3f</h2>
             <p>
@@ -61,10 +58,7 @@ export default function Home() {
             </p>
         </a>
 
-           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          > 
+           <a className={styles.card}> 
            <h2>Question 3g</h2> 
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
@@ -73,10 +67,7 @@ export default function Home() {
               debug these issues on their end such as dig. 
             </p> 
             </a> 
-           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+           <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
               This process overall was great, very straight forward and to the point and I had fun brushing up on my Git and Github skills. I now I will 
