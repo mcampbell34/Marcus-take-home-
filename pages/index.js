@@ -71,7 +71,9 @@ export default function Home() {
            <a className={styles.card}> 
            <h2>Question 3g</h2> 
             <p>
-              
+              From what I encountered and what I know is common is that customer may want to use their own domains instead of the one provided by Vercel. With this comes, 
+              educating the customer on how they can navigate through this process and configure
+              their site as they wish via documentation and screenshots if necessary. 
             </p> 
             </a> 
            <a className={styles.card}>
