@@ -21,7 +21,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <div className={styles.grid}>
+        <div>
             <h2>Question 3a</h2>
             <p> My top 5 faviorate task included:
                 - Help train and onboard new support teammates 
@@ -61,10 +61,19 @@ export default function Home() {
               To use your GoDaddy domain with Vercel, you can follow these steps: https://vercel.com/guides/transferring-domains-to-vercel. 
               Please let me know if you have any specific questions regarding this process and I'll be more than happy to further assist. 
             </p>
+<<<<<<< HEAD
           </a>
             </a>
 
            <h2>Question 3g</h2>
+=======
+          
+           <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          > 
+           <h2>Question 3g</h2> 
+>>>>>>> parent of 0d8f8d2... Update index.js
             <p>
               One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
               results and even though a customer made changes that are correct, they may still need to wait for the TTL of their DNC configrations to 
