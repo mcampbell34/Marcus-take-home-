@@ -4,7 +4,7 @@ module.exports = {
 {
   "redirects"; [
     { 
-      "source": "/",
+      "source": "/search",
       "destination": "https://vercel.com", 
       "permanent": true
     }

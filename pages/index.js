@@ -52,7 +52,7 @@ export default function Home() {
             <p>One way to redirect you can add the following within the next.config.js file if you are using Next.js or within the vercel.json 
             (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects).
 
-             By implenting the suggestions within the guide, you will see a 308 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
+             By implenting the suggestions within the guide, you will see a 307 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
              Additionally, you can use the -L flag via cURL to follow the 308 redirect to a 200 which is where the object now lives.
              
              If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I will be more than happy to help.
@@ -73,7 +73,7 @@ export default function Home() {
             <p>
               From what I encountered and what I know is common is that customer may want to use their own domains instead of the one provided by Vercel. With this comes, 
               educating the customer on how they can navigate through this process and configure
-              their site as they wish via documentation and screenshots if necessary. 
+              their site as they wish via documentation and screenshots if necessary. Additinally, customer may come across issues where they make changes and are not seeing them right away which can be handled via purge request to clear anything in cache and then refetch the correct object from origin and apply the new settings on the new object.
             </p> 
             </a> 
            <a className={styles.card}>
