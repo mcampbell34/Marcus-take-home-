@@ -24,12 +24,14 @@ export default function Home() {
                 <li> Run ticket review sessions to make sure tone is consistent</li>
                 <li> Work with engineering teams during incidents and provide updates to internal and external stakeholders</li>
                 <li> Find and recruit teammates for the support team</li>
-                </ul>  
-                 <ul>My top 5 least faviorate task included:
+              </ul>  
+              <ul> My top 5 least faviorate task included:
                 <li>Help resolve billing issues for customers</li>
                 <li>Dig through logs to troubleshoot a customers broken project</li>
                 <li>Respond to 50+ support requests via email every day </li>
-                </ul>
+                <li>Analyze hundreds of support tickets to spot trends the product team can use</li>
+                <li>Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub</li>
+              </ul>
           
           
 
@@ -44,8 +46,12 @@ export default function Home() {
           <a className={styles.card}>
             <h2>Question 3e</h2>
             <p>One way to redirect you can add the following within the next.config.js file if you are using Next.js or within the vercel.json 
-            (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects). If you are using something else
-             By following this guide, you will see a 308 response code on your request. You can use this command to test this redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
+            (https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects).
+
+             By implenting the suggestions within the guide, you will see a 308 response code on your request. You can use this command to see an example of the redirect behavior, curl -svo dev/null https://vercel-take-home-mcampbell34.vercel.app/search
+             Additionally, you can use the -L flag via cURL to follow the 308 redirect to a 200 which is where the object now lives.
+             
+             If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I'll be more than happy to help.
              </p>
 
 
@@ -54,24 +60,21 @@ export default function Home() {
            <h2>Question 3f</h2>
             <p>
               To use your GoDaddy domain with Vercel, you can follow these steps: https://vercel.com/guides/transferring-domains-to-vercel. 
-              Please let me know if you have any specific questions regarding this process and I will be more than happy to further assist. 
+              If you have already viewed this guide and still have questions, please share some insight on the challenges you ran into and I'll be more than happy to help.
             </p>
         </a>
 
            <a className={styles.card}> 
            <h2>Question 3g</h2> 
             <p>
-              One common issue that I can forsee customers at Vercel running into would be around DNS configuration. At times, DNS will cache
-              results and even though a customer made changes that are correct, they may still need to wait for the TTL of their DNC configrations to 
-              flush before the new changes are set. I would focus on helping our customer understand how DNS works and the tolls avalible they can use to 
-              debug these issues on their end such as dig. 
+              
             </p> 
             </a> 
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
-              This process overall was great, very straight forward and to the point and I had fun brushing up on my Git and Github skills. I now I will 
-              need to put aside sometime to get back into using the git command line as I have not used it since attending Lambda but, I was able to find
+              This process overall was great, very straight forward and to the point and I had fun brushing up on my Git, Github, HTML, and react skills. I know I will 
+              need to put aside sometime to get back into using the git command line and react as I have not used it since attending Lambda but, I was able to find
               alernatives to get the task done. 
             </p>
           </a>
