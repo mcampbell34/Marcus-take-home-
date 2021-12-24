@@ -23,7 +23,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <div className={styles.grid}>
+        <div>
             <h2>Question 3a</h2>
             <p> My top 5 faviorate task included:
                 - Help train and onboard new support teammates 
