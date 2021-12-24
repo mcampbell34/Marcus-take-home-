@@ -15,27 +15,22 @@ export default function Home() {
           Marcus Campbell Take Home Assignment
         </h1>
     </div>
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
-        
         <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Question 3a</h2>
-            <p> My top 5 faviorate task included:
-                - Help train and onboard new support teammates 
-                - Manage a support team
-                - Run ticket review sessions to make sure tone is consistent
-                - Work with engineering teams during incidents and provide updates to internal and external stakeholders
-                - Find and recruit teammates for the support team
+            <ul> My top 5 faviorate task included:
+                <li>Help train and onboard new support teammates</li>  
+                <li> Manage a support team </li> 
+                <li> Run ticket review sessions to make sure tone is consistent</li>
+                <li> Work with engineering teams during incidents and provide updates to internal and external stakeholders</li>
+                <li> Find and recruit teammates for the support team</li>
                 
                  My top 5 least faviorate task included:
-                - Help resolve billing issues for customers
-                - Dig through logs to troubleshoot a customers broken project
-                - Respond to 50+ support requests via email every day </p>
+                <li>Help resolve billing issues for customers</li>
+                <li>Dig through logs to troubleshoot a customers broken project</li>
+                <li>Respond to 50+ support requests via email every day </li>
           
-          </a>
+          </ul>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Question 3b</h2>
