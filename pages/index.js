@@ -91,7 +91,7 @@ export default function Home() {
               alernatives to get the task done. 
             </p>
           </a>
-        </a>
+        </div>
       </div>      
   )
 }
