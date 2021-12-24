@@ -83,7 +83,7 @@ export default function Home() {
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
-              This process overall was great, very straight forward and to the point. While I didn't spend too much time making my site fancy, I did have fun brushing up on my Git, Github, HTML, and react skills. I know I will need to put aside sometime to get back into using the git command line and react as I have not used it since attending Lambda but, after playing around with the code I was able to snap back and product a decent project. 
+              This process overall was great, very straight forward and to the point. While I did not spend too much time making my site fancy, I did have fun brushing up on my Git, Github, HTML, and react skills. I know I will need to put aside sometime to get back into using the git command line and react as I have not used it since attending Lambda but, after playing around with the code I was able to snap back and product a decent project. 
             </p>
           </a>
         </a>
