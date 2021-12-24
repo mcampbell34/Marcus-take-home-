@@ -19,14 +19,14 @@ export default function Home() {
         <a className={styles.card}>
             <h2>Question 3a</h2>
 
-            <ul> My top 5 faviorate task included:
+            <ul> My top 5 favorite task included:
                 <li>Help train and onboard new support teammates</li>  
                 <li> Manage a support team </li> 
                 <li> Run ticket review sessions to make sure tone is consistent</li>
                 <li> Work with engineering teams during incidents and provide updates to internal and external stakeholders</li>
                 <li> Find and recruit teammates for the support team</li>
               </ul>  
-              <ul> My top 5 least faviorate task included:
+              <ul> My top 5 least favorite task included:
                 <li>Help resolve billing issues for customers</li>
                 <li>Dig through logs to troubleshoot a customers broken project</li>
                 <li>Respond to 50+ support requests via email every day </li>
@@ -77,7 +77,7 @@ export default function Home() {
            <a className={styles.card}>
            <h2>Question 3h</h2>
             <p>
-              This process overall was great, very straight forward and to the point and I had fun brushing up on my Git, Github, HTML, and react skills. I know I will 
+              This process overall was great, very straight forward and to the point. I had fun brushing up on my Git, Github, HTML, and react skills. I know I will 
               need to put aside sometime to get back into using the git command line and react as I have not used it since attending Lambda but, I was able to find
               alernatives to get the task done. 
             </p>
