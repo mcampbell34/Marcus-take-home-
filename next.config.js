@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
 }
 {
-  "redirects": [
+  "redirects"; [
     { 
       "source": "/",
       "destination": "https://vercel.com", 
